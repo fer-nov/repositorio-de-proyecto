@@ -1,117 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabores del Norte | Trabaja con nosotros</title>
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tagesschrift&display=swap" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores del Norte | Trabaja con nosotros</title>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tagesschrift&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header-con-imagen position-relative text-white">
+  <header class="header-con-imagen position-relative text-white">
     <!-- Imagen de fondo -->
     <img src="../assets/images/wood.jpg" class="img-fondo w-100 h-100 object-fit-cover">
     <!-- Contenido encima de la imagen -->
     <div class="contenido-header position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
-        <!-- Título centrado -->
-        <div class="text-center my-auto">
+      <!-- Título principal -->
+      <div class="text-center my-auto">
         <h1><a href="../index.html" title="Página principal">Sabores del Norte</a></h1>
-        </div>
-        <div class="redes-sociales">
-        <ul>
-            <li><a href="https://facebook.com/saboresdelnorte" target="_blank" title="Facebook"><img src="../assets/images/facebook.png" width="25px"></a></li>
-            <li><a href="https://instagram.com/saboresdelnorte" target="_blank" title="Instagram"><img src="../assets/images/logo-instagram.png" width="25px"></a></li>
-            <li><a href="https://x.com/saboresdelnorte" target="_blank" title="X"><img src="../assets/images/logo-x.png" width="25px"></a></li>
-        </ul>
-        </div>
-        <!-- Navbar -->
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html" title="Inicio">Inicio</a></li>
-                <li><a href="menu.html" title="Menú">Menú</a></li>
-                <li><a href="reservas.html" title="Reservas">Reservas</a></li>
-                <li><a href="contacto.html" title="Contacto">Contacto</a></li>
-                <li><a href="nosotros.html" title="Nosotros">Nosotros</a></li>
-                <li><a href="#" title="Estás aquí">RR.HH</a></li>
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a href="../index.html" title="Inicio">Inicio</a>
+              </li>
+              <li>
+                <a href="menu.html" title="Menú">Menú</a>
+              </li>
+              <li>
+                <a href="reservas.html" title="Reservas">Reservas</a>
+              </li>
+              <li>
+                <a href="contacto.html" title="Contacto">Contacto</a>
+              </li>
+              <li>
+                <a href="nosotros.html" title="Nosotros">Nosotros</a>
+              </li>
+              <li>
+                <a href="#" title="Estás aquí">RR.HH</a>
+              </li>
             </ul>
-        </nav>
-    </div>
-    </header>
-    <main>
-        <h2>Querés laburar con nosotros?</h2>
-        <h3>Dejanos tus datos</h3>
-        <div class="container mt-5">
-            <h2 class="mb-4">Formulario de Registro</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
-                </div>
-
-                <div class="mb-3">
-                    <label for="apellido" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
-                </div>
-
-                <div class="mb-3">
-                    <label for="fecha" class="form-label">Fecha de nacimiento</label>
-                    <input type="date" class="form-control" id="fecha">
-                </div>
-
-                <div class="mb-3">
-                    <label for="domicilio" class="form-label">Domicilio</label>
-                    <input type="text" class="form-control" id="domicilio" placeholder="Ingresa tu domicilio">
-                </div>
-
-                <div class="mb-3">
-                    <label for="formacion" class="form-label">Formación académica</label>
-                    <input type="text" class="form-control" id="formacion" placeholder="Ingresa tus estudios">
-                </div>
-
-                <div class="mb-3">
-                    <label for="puesto" class="form-label">Puesto</label>
-                    <select type="puesto" class="form-control" id="puesto">
-                        <option value="" disabled selected>-- Selecciona un puesto --</option>
-                        <option value="">Gerente</option>
-                        <option value="">Cajero</option>
-                        <option value="">Mozo</option>
-                        <option value="">Delivery</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="3704-123456" required>
-                </div>
-
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
-                </div>
-
-                <button type="submit" class="btn btn-outline-secondary">Enviar</button>
-            </form>
+          </div>
         </div>
-
-    </main>
-    <!-- FOOTER -->
-    <footer>
-    <div class="links-footer">
-        <ul>
-        <li><a href="https://instagram.com/saboresdelnorte" title="Instagram" target="_blank"><img src="../assets/images/Instagram-Icon.png" width="15px"></a></li>
-        <li><a href="https://facebook.com/saboresdelnorte" title="Facebook" target="_blank"><img src="../assets/images/Icono-facebook.png" width="15px"></a></li>
-        <li><a href="saboresdelnorte@gmail.com" title="Mail" target="_blank"><img src="../assets/images/iconoo-email2.jpg" width="15px" height="15px"></a></li>
-        </ul>
-        <p>© 2025 Sabores del Norte</p>
+      </nav>
+      <!-- Links a redes sociales -->
+      <div class="redes-sociales">
+      <ul>
+        <li><a href="https://facebook.com/saboresdelnorte" target="_blank" title="Facebook"><img src="../assets/images/facebook.png" width="25px"></a></li>
+        <li><a href="https://instagram.com/saboresdelnorte" target="_blank" title="Instagram"><img src="../assets/images/logo-instagram.png" width="25px"></a></li>
+        <li><a href="https://x.com/saboresdelnorte" target="_blank" title="X"><img src="../assets/images/logo-x.png" width="25px"></a></li>
+      </ul>
+      </div>
     </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </header>
+    <main>
+      <h2>Querés laburar con nosotros?</h2>
+      <h3>Dejanos tus datos</h3>
+      <div class="container mt-5">
+        <h2 class="mb-4">Formulario de Registro</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+          </div>
+          <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="fecha">
+          </div>
+          <div class="mb-3">
+            <label for="domicilio" class="form-label">Domicilio</label>
+            <input type="text" class="form-control" id="domicilio" placeholder="Ingresa tu domicilio">
+          </div>
+          <div class="mb-3">
+            <label for="formacion" class="form-label">Formación académica</label>
+            <input type="text" class="form-control" id="formacion" placeholder="Ingresa tus estudios">
+          </div>
+          <div class="mb-3">
+            <label for="puesto" class="form-label">Puesto</label>
+            <select type="puesto" class="form-control" id="puesto">
+              <option value="" disabled selected>-- Selecciona un puesto --</option>
+              <option value="">Gerente</option>
+              <option value="">Cajero</option>
+              <option value="">Mozo</option>
+              <option value="">Delivery</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="3704-123456" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
+          </div>
+          <button type="submit" class="btn btn-outline-secondary">Enviar</button>
+        </form>
+      </div>
+    </main>
+  <!-- FOOTER -->
+  <footer>
+  <div class="links-footer">
+    <ul>
+      <li><a href="https://instagram.com/saboresdelnorte" title="Instagram" target="_blank"><img src="../assets/images/Instagram-Icon.png" width="15px"></a></li>
+      <li><a href="https://facebook.com/saboresdelnorte" title="Facebook" target="_blank"><img src="../assets/images/Icono-facebook.png" width="15px"></a></li>
+      <li><a href="saboresdelnorte@gmail.com" title="Mail" target="_blank"><img src="../assets/images/iconoo-email2.jpg" width="15px" height="15px"></a></li>
+    </ul>
+    <p>© 2025 Sabores del Norte</p>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
