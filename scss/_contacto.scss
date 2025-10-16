@@ -1,0 +1,22 @@
+/* CONTACTO */
+.containerpadre {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 100vh;
+    grid-template-areas: "contacto ."
+                        "form mapa";
+}
+.contacto {
+    grid-area: contacto;
+}
+.form-contacto {
+    grid-area: form;
+}
+.map-container {
+    grid-area: mapa;
+    iframe {
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+
+@mixin navstyle {
+    border-bottom: 1px solid rgb(158, 135, 140);
+    transform: translateX(-15%) translateY(-1px);
+    box-shadow: $box-shadow;
+}
+@mixin flex($flex, $flex-d, $just-cont){
+    display: $flex;
+    flex-direction: $flex-d;
+    justify-content: $just-cont;
+}
+@mixin btnoverlay($left) {
+    position: absolute;
+    bottom: 30px;
+    left: $left;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: $btn-box-shadow;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+@mixin btnoverlay-hover {
+    background: #FF6380;
+    transform: translateX(-50%) translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+// Container de menú y reservas
+@mixin container {
+    min-height: 50vh;
+    padding: 2rem 0;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+/* FOOTER */
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    bottom: 0;
+    width: 100%;
+}
+.links-footer {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    li {
+        display: inline-block;
+        margin: 0 4mm;
+        padding: 0;
+        a {
+            img {
+                width: 18px;
+            }
+        }
+    }
+}

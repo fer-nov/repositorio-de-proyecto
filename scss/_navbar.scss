@@ -1,0 +1,29 @@
+/* BARRA DE NAVEGACION */
+.navbar-toggler {
+    border: 2px solid;
+}
+.navbar {
+    padding: 2rem;
+    ul {
+        @include flex(flex, row, center);
+        gap: 15px;
+    }
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    ul {
+        list-style: none;
+    }
+    li {
+    a {
+        text-decoration: none;
+        color: $sec-color;
+    }
+    a:hover {
+        @include navstyle;
+        }
+}
+}

@@ -1,0 +1,27 @@
+/* HEADER */
+
+.header-con-imagen {
+    min-height: 150px;
+    height: auto;
+    overflow: visible;
+    background-color: $header-bg-color;
+}
+.img-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
+    opacity: 0.6;
+}
+.contenido-header {
+    z-index: 3;
+    color: $sec-color;
+}
+header {
+    a {
+        text-decoration: none;
+        color: $sec-color;
+        font-family: 'Tagesschrift';
+    }
+}

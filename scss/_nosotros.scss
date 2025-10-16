@@ -1,0 +1,25 @@
+/* NOSOTROS */
+.container-nosotros {
+    display: flex;
+    flex-direction: column;
+
+    background: 
+    $gradient,
+    url('https://images.squarespace-cdn.com/content/v1/570a72d222482e7442eda206/6f3b5a32-cd75-4e09-abff-18a0257db569/annette-dining-room-hero.jpg') center/cover fixed;
+    @include container;
+}
+.seccion-nosotros {
+    align-self: flex-start;
+    white-space: pre-line;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: larger;
+}
+.img-nosotros {
+    align-self: flex-end;
+    border: 5px solid transparent;
+    width: 600px;
+    img {
+        border-radius: 15px;
+    }
+}

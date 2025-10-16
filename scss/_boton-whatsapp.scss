@@ -1,0 +1,32 @@
+/* BOTON WHATSAPP */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, $wp-color1, $wp-color2);
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    animation: pulse 3s infinite;
+    &:hover {
+        background: linear-gradient(135deg, $wp-color2, $wp-color3);
+        transform: scale(1.1);
+        box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+    }
+    &:focus {
+        outline: 3px solid $wp-color1;
+        outline-offset: 4px;
+    }
+    svg {
+        width: 28px;
+        height: 28px;
+        fill: $sec-color;
+    }
+}
