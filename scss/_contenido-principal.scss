@@ -1,10 +1,12 @@
 /* IMAGEN DE PÁGINA PRINCIPAL Y BOTONES*/
 main {
     padding: 1em;
+    background-color: #ebebddff;
 }
 .container-imagen {
     position: relative;
     width: 100%;
+    height:100%;
     max-width: 1200px;
     margin: 10px auto;
     overflow: hidden;
@@ -65,10 +67,11 @@ main {
     font-size: 1.4rem;
     color: #333;
     font-weight: bold;
+    border-bottom: 2px solid #cfa34f
 
 }
 .card-text {
-    margin: 0;
+    margin: 5px;
     color: #666;
     line-height: 1.6;
     font-size: 0.95rem;
